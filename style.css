@@ -1,6 +1,5 @@
 .project_grid {
     display: grid;
-    /* Dwie lub trzy kolumny, które automatycznie dopasowują się do rozmiaru */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
